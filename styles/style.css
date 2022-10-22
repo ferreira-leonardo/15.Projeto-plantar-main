@@ -1,0 +1,367 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Mina:wght@400;700&display=swap');
+
+:root{
+    --fonte1:'Gugi', cursive;
+    --fonte2:'Mina', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: var(--fonte2);
+}
+
+body{
+    background-color: #02122C;
+    
+}
+
+*::selection{
+    background-color: chocolate;
+}
+
+
+/* Header */
+
+header{
+    width: 100%;
+    background-color: #02122C;
+    box-sizing: border-box;
+    
+}
+
+.menu-content{
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.header-logo img{
+    height: 70px;
+    margin-top: 10px;
+}
+
+.menu-content .list-itens{
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+
+.menu-content .list-itens a{
+    color: white;
+    border: 2px solid transparent;
+    padding: 10px 20px;
+    transition: all .4s;
+}
+
+.menu-content .list-itens a:hover{
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+#login{
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: #081f43;
+}
+
+#login:hover{
+    background-color: #378573;
+}
+
+#btn-mobile{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* main */
+
+
+#pag1{
+    background-image: url(../img/4.-Background-1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    height: 93vh;
+    
+}
+
+main > section > div{
+    text-align: center;
+    padding-top: 10vh;
+    line-height: 10px;
+    padding-bottom: 250px;
+}
+
+main picture{
+    margin-bottom: 0px;
+    padding-bottom: 0px ;
+}
+
+#pag1 p{
+    font-size: 2.2vw;
+    text-align: center;
+    color: #032a41;
+    padding-top: 1vw;
+}
+
+#botao-plante a{
+    color: #043046;
+    font-size: 2.5vh;
+    padding: 14px 16px;
+    border: 2px solid white;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.5);
+    transition: all .4s;
+}
+
+#botao-plante a:hover{
+    color: rgba(255, 255, 255, 0.707);
+    border-color: rgba(255, 255, 255, 0.707);
+    background-color: #032a41;
+}
+
+
+
+
+
+/* página 2*/
+
+
+
+
+
+#pag2{
+    background-color: white;
+    height: 1020px;
+    text-align: center;
+}
+
+#pag2 h1{
+    color: #043046;
+    padding-top: 120px;
+    font-size: 50px;
+}
+
+aside{
+    margin: 0vw 8vw 0vw 8vw;
+}
+
+#pag2 p{
+    margin: auto;
+    font-size: 25px;
+    text-align: justify;
+    padding-top: 30px;
+}
+
+
+#saibamais1{
+    color: white;
+    font-size: 2.5vh;
+    padding: 14px 16px;
+    border-radius: 16px;
+    background: #043046;
+    border: 2px solid transparent;
+    transition: all .4s;
+}
+
+#saibamais1:hover{
+    background-color: transparent;
+    color: #043046;
+    border: 2px solid #043046;
+}
+
+
+
+
+
+/*página 3*/
+
+
+#pag3{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #001A2B;
+    height: 1120px;
+}
+
+#pag3 h1{
+    color: #6EA3EC;
+    padding: 120px 0px 60px 0px;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+#pag3 p{
+    color: white;
+    text-align: justify;
+    
+}
+
+#pag3 section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 40px 0px;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+#pag3 aside{
+    
+    margin: 0;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 11vh;
+    width: 11vh;
+}
+
+#article-text{
+    margin-right: 70px;
+}
+
+#pag3 img{
+    margin-top: 270px;
+    
+}
+
+#saibamais2{
+    color: white;
+    font-size: 2.5vh;
+    padding: 14px 16px;
+    border-radius: 16px;
+    background: #043046;
+    border: 2px solid transparent;
+    transition: all .4s;
+}
+
+#saibamais2:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #043046;
+}
+
+
+
+
+#pag4{
+    background-image: url(../img/8.\ Background-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 1020px;
+    padding: 120px 0px 0px 10vw;
+    position: relative;
+}
+
+#pag4 h1{
+    font-size: 30px;
+    color: #00522A;
+    font-weight: bolder;
+}
+
+#pag4 p{
+    font-size: 16px;
+    color: #00522A;
+}
+
+#pag4 section{
+    padding-top: 60px;
+    
+}
+
+
+
+
+.sim-input{
+    width: 100%;
+    margin: 20px 0px;
+    position: relative;
+}
+
+
+.sim-input label{
+    font-size: 20px;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    color: rgb(123, 123, 123);
+    cursor: text;
+    
+}
+
+.sim-input input{
+    background-color: #c0c0c0;
+    font-size: 18px;
+    padding-left: 5px;
+    border: none;
+    height: 40px;
+    width: 400px;
+    border-radius: 16px;
+    outline: 0;
+}
+
+#input-mensagem{
+    height: 200px;
+}
+
+.sim-input input:focus{
+    background-color: #a7a7a7;
+}
+
+
+
+input#bnt{
+    background-color: #00522A;
+    width: 400px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 16px;
+    border: none;
+    color: white;
+}
+
+#bnt:hover{
+    cursor: pointer;
+    background-color: #006d38;
+}
+
+
+footer{
+    color: white;
+    text-align: center;
+}
+
+footer a{
+    color: aqua;
+}
+
+
+#hamburger{
+    display: none;
+}
+
+
+

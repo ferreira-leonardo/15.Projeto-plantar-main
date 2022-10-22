@@ -1,0 +1,315 @@
+@charset "UTF-8";
+
+@media (max-width: 1440px) {
+
+}
+
+
+@media (max-width: 1024px) {
+
+}
+
+
+
+
+
+
+@media (min-width: 426px) and (max-width: 823px) {
+    #btn-mobile{
+        display: block;
+        /*ok*/
+    }
+
+    .menu-content .list-itens{
+        display: none;
+        color: white;
+        
+    }
+
+    .list-itens{
+        position: absolute;
+        text-align: center;
+        height: 0;
+        width: 100%;
+        top: 75px;
+        right: 0px;
+        z-index: 1000;
+        
+        /*ok*/
+    }
+
+    .list-itens li{
+        /*font-size: 25px;*/
+        margin-bottom: 30px;
+    }
+
+    #nav.active .list-itens{
+        height: 100%;
+        background: #02122C;
+        display: block;
+        visibility: visible;
+        overflow-y: hidden;
+        
+        /*ok*/
+    }
+
+    .list-itens li:nth-child(1){
+        margin-top: 50px;
+    }
+
+    .list-itens li{
+        padding: 15px 5px;
+        border-bottom: 1px solid rgba(138, 138, 138, 0.2);
+        
+    }
+
+    #login{
+        border: none;
+        background: none;
+    }
+
+    #btn-mobile{
+        color: white;
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+    }
+
+    #hamburger{
+        display: block;
+        border-top: 2px solid;
+        width: 20px;  
+    }
+
+    #hamburger::after, #hamburger::before{
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+        
+    }
+
+    #nav.active #hamburger{
+        border-top-color: transparent;
+    }
+
+    #nav.active #hamburger::before{
+        transform: rotate(135deg);
+    }
+
+    #nav.active #hamburger::after{
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+
+    #pag1 p{
+        font-size: 3.2vw;
+    }
+
+}
+
+
+
+
+
+@media (max-width: 425px) {
+
+    #btn-mobile{
+        display: block;
+        /*ok*/
+    }
+
+    .menu-content .list-itens{
+        display: none;
+        color: white;
+        
+    }
+
+    .list-itens{
+        position: absolute;
+        height: 0;
+        width: 100%;
+        top: 75px;
+        right: 0px;
+        z-index: 1000;
+        
+        /*ok*/
+    }
+
+    #nav.active .list-itens{
+        height: 100%;
+        background: #02122C;
+        display: block;
+        visibility: visible;
+        overflow-y: hidden;
+        
+        /*ok*/
+    }
+
+    .list-itens li:nth-child(1){
+        margin-top: 50px;
+    }
+
+    .list-itens li{
+        padding: 15px 5px;
+        border-bottom: 1px solid rgba(138, 138, 138, 0.2);
+        
+    }
+
+    #login{
+        border: none;
+        background: none;
+    }
+
+    #btn-mobile{
+        color: white;
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+    }
+
+    #hamburger{
+        display: block;
+        border-top: 2px solid;
+        width: 20px;  
+    }
+
+    #hamburger::after, #hamburger::before{
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+        
+    }
+
+    #nav.active #hamburger{
+        border-top-color: transparent;
+    }
+
+    #nav.active #hamburger::before{
+        transform: rotate(135deg);
+    }
+
+    #nav.active #hamburger::after{
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+
+    
+
+    /*main*/
+
+    #pag1{
+        height: 80vh;
+    }
+
+
+    main picture img{
+        width: 90%;
+    }
+
+    #pag1 p{
+        line-height: 20px;
+        font-size: 1em;
+    }
+
+
+
+
+    #pag2 h1{
+        font-size: 35px;
+    }
+
+    #pag2 p{
+        font-size: 18px;
+    }
+
+    #saibamais1{
+        font-size: 2vh;
+    }
+
+
+
+    #pag3{
+        display: block;
+        justify-content: center;
+        height: 110vh;
+    }
+
+    #article-text{
+        margin: 0vw 8vw 0vw 8vw
+        
+    }
+    #pag3 p{
+        text-align: center;
+        text-align: justify;
+    }
+    #pag3 h1{
+        text-align: center;
+        font-size: 35px;
+    }
+
+
+    #pag3 img{
+        display: none;
+    }
+
+
+
+
+    #pag4{
+        padding-left: 6vw;
+    }
+
+    .sim-input input{
+        width: 90%;
+    }
+
+    input#bnt{
+        width: 90%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+ 
+}
